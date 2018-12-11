@@ -15,6 +15,9 @@ import com.outlocks.wikey.base.BaseAppActivity;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 public class QrReaderActivity extends BaseAppActivity implements ZXingScannerView.ResultHandler {
 
+	//QR reader library - paste it to your gradle file
+    	//implementation "me.dm7.barcodescanner:zxing:1.9.8"
+	
 	public static final String TAG  = QrReaderActivity.class.getSimpleName();
 	public static final int QR_ACTIVITY = 56;
 	public static final String SCAN_RESULT = "scan_result";
